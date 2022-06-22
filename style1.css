@@ -1,0 +1,35 @@
+.img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+  .read2{
+    background-image: url("img/Rectangle\ 4.png");
+    min-height: 300px;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+      /* Needed to position the navbar */
+      position: relative;
+    }
+    .read2{
+      background-image: url("img/Rectangle\ 4.png");
+      max-height: 900px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* Needed to position the navbar */
+        position: relative;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
